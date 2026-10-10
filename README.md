@@ -1,33 +1,21 @@
-# Hierarki Pewarisan (Inheritance), Polimorfisme, & ArrayList Bentuk Geometri (Java)
+#Pewarisan (Inheritance) & Polimorfisme
 
-Repitori ini berisi program berbasis konsol Java yang mendemonstrasikan penerapan konsep Pemrograman Berorientasi Objek (PBO), khususnya **Pewarisan (*Inheritance*)**, **Polimorfisme**, serta pengolahan data koleksi dinamis menggunakan **`ArrayList`**.
+Repitori ini berisi program yang mendemonstrasikan penerapan konsep Pemrograman Berorientasi Objek (PBO), khususnya **Pewarisan (*Inheritance*)**, **Polimorfisme**, serta pengolahan data koleksi dinamis menggunakan **`ArrayList`**.
 
 ## 🚀 Cara Menjalankan Program (Compile & Run)
-
-Pastikan Anda sudah menginstal **Java Development Kit (JDK)** di komputer Anda.
-
-1. Simpan seluruh file kode (`Bentuk.java`, `BujurSangkar.java`, `Lingkaran.java`, `Silinder.java`, dan `Main.java`) di dalam **satu folder yang sama**.
-
-2. Buka terminal atau Command Prompt, lalu arahkan ke folder tersebut.
-
-3. Kompilasi seluruh file program secara bersamaan dengan perintah:
+Kompilasi seluruh file program secara bersamaan dengan perintah:
 
    ```bash
    javac Main.java Bentuk.java BujurSangkar.java Lingkaran.java Silinder.java
    ```
-
-4. Jalankan program utama:
+Jalankan program utama:
 
    ```bash
    java Main
    ```
 
 ## 💻 Penjelasan Struktur File & Implementasi Kode
-
-Proyek ini dibagi menjadi beberapa kelas terpisah untuk menerapkan prinsip modularitas dan hierarki kelas:
-
 ### 1. `Bentuk.java` (Superclass / Kelas Induk)
-Kelas dasar yang merepresentasikan bentuk umum. Berisi:
 * Atribut terlindung (`protected String warna`).
 * *Constructor* dan *getter/setter* untuk pengelolaan warna.
 * Method dasar `print()` yang akan ditimpa (*overridden*) oleh kelas turunannya.
