@@ -1,4 +1,4 @@
-#Pewarisan (Inheritance) & Polimorfisme
+## Pewarisan (Inheritance) & Polimorfisme
 
 Repitori ini berisi program yang mendemonstrasikan penerapan konsep Pemrograman Berorientasi Objek (PBO), khususnya **Pewarisan (*Inheritance*)**, **Polimorfisme**, serta pengolahan data koleksi dinamis menggunakan **`ArrayList`**.
 
